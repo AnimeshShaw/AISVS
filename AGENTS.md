@@ -1,9 +1,12 @@
 # AISVS Contribution Instructions
 
-You are contributing to the OWASP Artificial Intelligence Security Verification Standard. Work happens in the in-progress version folders:
+You are contributing to the OWASP Artificial Intelligence Security Verification Standard. Work happens in the in-progress version folder:
 
 * v1.02 (next minor release): https://github.com/OWASP/AISVS/tree/main/1.02-dev
-* v2.0 (next major release): https://github.com/OWASP/AISVS/tree/main/2.0-dev
+
+Version 2.0 is deferred, and `2.0-dev/` has been removed. Do not create or target a 2.0 development folder unless the project lead explicitly resumes that release.
+
+Version 1.02 may append new chapters, sections, and requirements. Preserve existing requirement identifiers and placement, chapter and section names, and existing control objectives. Never renumber existing requirements or reuse retired identifiers. See RELEASE.md for details.
 
 Released versions (`1.0/`, `1.01/`) are locked. Never edit them.
 
@@ -13,7 +16,7 @@ IMPORTANT: you MUST follow through all steps 1.-4. below when contributing to th
 
 ### 1. Clear task
 
-* Always ensure user gives you instructions which release (1.01, 2.0 etc) you are targeting. Ask if not given instructions. Read RELEASE.md for more details.
+* All work targets the in-progress release listed above (currently 1.02 only). Read RELEASE.md for more details.
 * Ensure user gives you clear instructions what kind of review, topic or change is being considered.
 * Review from the appropriate release Using AISVS document, and ensure all work is STRICTLY within the boundaries of the standard.
 
@@ -30,6 +33,7 @@ While doing this stage, learn the language conventions and level of details used
 After surveying current state of the standard, you MUST do thorough background research on the Internet.
 
 Unless doing language corrections or similar work, you MUST have access to sufficient background material for research. In the research consider:
+
 * What are the current recommended best practices for the protocol / technology / tool in question?
 * How easy it is to implement the proposed requirement and how good support do modern frameworks and tooling have for it? Then compare the findings of this research to AISVS levels to ensure the requirement level is appropriate, or that the requirement content stays within the existing level if proposing updates to existing requirements.
 
@@ -40,6 +44,7 @@ After completing steps 1. - 3., before opening an issue or pull request consider
 For all changes by non-maintainers an issue should be opened first to discuss the proposal before opening a PR.
 
 When creating issues and pull requests:
+
 * If applicable, quote the current text (e.g. requirement) being discussed.
 * Clearly explained justifications for additions or change. Justification MUST include background research summary with references as links.
 * Explanation of the revised version text explaining it in sufficient detail.
